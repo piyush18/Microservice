@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2727\\source\\repos\\Solution3\\Product.API\\Product.API.csproj": {}
+    "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\Product.API\\Product.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2727\\source\\repos\\Solution3\\Product.API\\Product.API.csproj": {
+    "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\Product.API\\Product.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2727\\source\\repos\\Solution3\\Product.API\\Product.API.csproj",
+        "projectUniqueName": "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\Product.API\\Product.API.csproj",
         "projectName": "Product.API",
-        "projectPath": "C:\\Users\\2727\\source\\repos\\Solution3\\Product.API\\Product.API.csproj",
+        "projectPath": "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\Product.API\\Product.API.csproj",
         "packagesPath": "C:\\Users\\2727\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2727\\source\\repos\\Solution3\\Product.API\\obj\\",
+        "outputPath": "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\Product.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2727\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,25 +41,29 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Cors": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
             },
-            "Swashbuckle.AspNetCore.Swagger": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.3.1, )"
+              "version": "[5.0.10, )"
             },
-            "Swashbuckle.AspNetCore.SwaggerGen": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[6.3.1, )"
+              "version": "[1.11.1, )"
             },
-            "Swashbuckle.AspNetCore.SwaggerUi": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
             }

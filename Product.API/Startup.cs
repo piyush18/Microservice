@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Product.API.Data;
+using Product.API.Services;
 
 namespace Product.API
 {
@@ -26,6 +28,7 @@ namespace Product.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
@@ -34,6 +37,8 @@ namespace Product.API
                 });
 
             });
+            services.AddScoped<IProductService, ProductService>();
+            services.AddDbContext<DbContextClass>();
             services.AddControllers();
         }
 
@@ -62,6 +67,7 @@ namespace Product.API
             {
                 endpoints.MapControllers();
             });
+            app.UseCors();
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2727\\source\\repos\\Solution3\\API.Gateway\\API.Gateway.csproj": {}
+    "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\API.Gateway\\API.Gateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2727\\source\\repos\\Solution3\\API.Gateway\\API.Gateway.csproj": {
+    "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\API.Gateway\\API.Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2727\\source\\repos\\Solution3\\API.Gateway\\API.Gateway.csproj",
+        "projectUniqueName": "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\API.Gateway\\API.Gateway.csproj",
         "projectName": "API.Gateway",
-        "projectPath": "C:\\Users\\2727\\source\\repos\\Solution3\\API.Gateway\\API.Gateway.csproj",
+        "projectPath": "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\API.Gateway\\API.Gateway.csproj",
         "packagesPath": "C:\\Users\\2727\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2727\\source\\repos\\Solution3\\API.Gateway\\obj\\",
+        "outputPath": "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\API.Gateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2727\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Ocelot": {
               "target": "Package",
               "version": "[15.0.0, )"

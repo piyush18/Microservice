@@ -27,8 +27,28 @@ namespace API.Gateway
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CORSPolicy",
+                    builder => builder
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials()
+                    .SetIsOriginAllowed((hosts) => true));
+            });
             services.AddControllers();
             services.AddOcelot();
+            //services.AddCors();
+            //services.AddCors(options =>
+            //{
+            //    options.AddPolicy("CORSPolicy",
+            //        builder => builder
+            //        .WithOrigins("https://localhost:44389", "http://localhost:4200", "http://localhost:51221")
+            //        .AllowAnyMethod()
+            //        .AllowAnyHeader());
+            //    //.AllowCredentials()
+            //    //.SetIsOriginAllowed((hosts) => true));
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,7 +58,7 @@ namespace API.Gateway
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors("CORSPolicy");
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -50,6 +70,7 @@ namespace API.Gateway
                 endpoints.MapControllers();
             });
             app.UseOcelot().Wait();
+            //app.UseCors();
         }
     }
 }

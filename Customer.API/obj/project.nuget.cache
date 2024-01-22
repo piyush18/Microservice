@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mTpW6SoHAjADs7G/7IeWaxtTRxD97mVTFuxUEDNQABpOCASB2dEteotlidJTZtZXLdamEzFkPS5rI/cMXTE73A==",
+  "dgSpecHash": "RW2DiAdb/PL4rBNoPb/1sKs3sehFEvR0yOmLcS3LvYDzb2i+FQ0O+qjJLii9nsT9pk4c5nepY+hRHjQ8b5jSzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\2727\\source\\repos\\Solution3\\Customer.API\\Customer.API.csproj",
+  "projectFilePath": "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\Customer.API\\Customer.API.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

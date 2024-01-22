@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2727\\source\\repos\\Solution3\\Customer.API\\Customer.API.csproj",
+      "projectUniqueName": "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\Customer.API\\Customer.API.csproj",
       "projectName": "Customer.API",
-      "projectPath": "C:\\Users\\2727\\source\\repos\\Solution3\\Customer.API\\Customer.API.csproj",
+      "projectPath": "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\Customer.API\\Customer.API.csproj",
       "packagesPath": "C:\\Users\\2727\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2727\\source\\repos\\Solution3\\Customer.API\\obj\\",
+      "outputPath": "C:\\Users\\2727\\source\\repos\\Solution3\\Microservice\\Customer.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\2727\\AppData\\Roaming\\NuGet\\NuGet.Config",

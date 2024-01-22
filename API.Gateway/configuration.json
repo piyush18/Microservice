@@ -42,8 +42,8 @@
             //"DangerousAcceptAnyServerCertificateValidator": true
         }
     ]
-    //,
-    //"GlobalConfiguration": {
-    //    "BaseUrl":"http://localhost:44363"
-    //}
+    ,
+    "GlobalConfiguration": {
+        "BaseUrl":"http://localhost:44389"
+    }
 }
