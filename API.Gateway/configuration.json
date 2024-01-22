@@ -1,0 +1,49 @@
+{
+    "ReRoutes": [
+        {
+            "DownstreamPathTemplate": "/api/product",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 51221
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway/product",
+            "UpstreamHttpMethos": [ "GET", "POST", "PUT" ]
+            //"DangerousAcceptAnyServerCertificateValidator": true
+        },
+        {
+            "DownstreamPathTemplate": "/api/product/productId/{productId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 51221
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway/Product/productId/{productId}",
+            "UpstreamHttpMethos": [ "GET", "DELETE" ]
+
+
+            //"DangerousAcceptAnyServerCertificateValidator": true
+        },
+        {
+            "UpstreamPathTemplate": "/gateway/customer",
+            "UpstreamHttpMethos": [ "POST", "PUT", "GET" ],
+            "DownstreamPathTemplate": "/api/customer",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 44369
+                }
+            ]
+            //"DangerousAcceptAnyServerCertificateValidator": true
+        }
+    ]
+    //,
+    //"GlobalConfiguration": {
+    //    "BaseUrl":"http://localhost:44363"
+    //}
+}

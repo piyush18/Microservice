@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "elfRgFcIwp8VDU99UIrLviblF0vOQbbOkwpSKB5dT0cCjECHnsOF8WrOxETL+niSqEI7M05fc/p0UyK/39PwXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\2727\\source\\repos\\Solution3\\API.Gateway\\API.Gateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\2727\\.nuget\\packages\\fluentvalidation\\8.6.1\\fluentvalidation.8.6.1.nupkg.sha512",
+    "C:\\Users\\2727\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.1\\microsoft.aspnetcore.jsonpatch.3.1.1.nupkg.sha512",
+    "C:\\Users\\2727\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\3.1.1\\microsoft.aspnetcore.middlewareanalysis.3.1.1.nupkg.sha512",
+    "C:\\Users\\2727\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.1\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.1.nupkg.sha512",
+    "C:\\Users\\2727\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\2727\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.1\\microsoft.extensions.dependencyinjection.abstractions.3.1.1.nupkg.sha512",
+    "C:\\Users\\2727\\.nuget\\packages\\microsoft.extensions.diagnosticadapter\\3.1.1\\microsoft.extensions.diagnosticadapter.3.1.1.nupkg.sha512",
+    "C:\\Users\\2727\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\2727\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\2727\\.nuget\\packages\\ocelot\\15.0.0\\ocelot.15.0.0.nupkg.sha512",
+    "C:\\Users\\2727\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Users\\2727\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
